@@ -1,7 +1,9 @@
 languaje: java
 deploy:
- on:
-  branch: main
- skip_cleanup: true
- provider: heroku
- app: myapp-meridiaz
+  on:
+    branch: main
+  skip_cleanup: true
+  provider: heroku
+  app: myapp-meridiaz
+  api_key:
+    secure: M/hpnC6E2vtww1vh6WlpxhEVQdtY3r/q26Eo42qSj1uytTPSwjFFrPeFYJMVQvNwEj0VexvikIdDjWhJQ+fK7YiUN3Dt2FdHwf15PrKnaVsTE77c3MfxWYRfoRkmX8CSO6kglUE7e9Q1XA2BbwqTYbA2Y06vSWN6CfDV5ncDsj4ex/hoynmzbZY6qX2t6n+L6tC5O5EN+tuSrcZrc8dStsq42CEDkKD0X8e5mz8GIYykQlVxLfaJXf/HHgt3nVmCeRgQCT2E0mmzAxb4iTrAiYPdCvcUl5a1+371BpYpTOmF2wn36PMxcTJixm+yg04EQLXE9qHo+EVlAl+x9wJsZHsTOMJk6MWPOWUPmxeyGoedls1Dm9USwlaw4r+diBp7PVkopTmCp+ww9Mp3IMXmtQwEn1uo3YJix+YGi/WGKjhJB5ww16x2gYyhVSf3ymcXuYnMQs5ayFetYy+9H/TD560EjwlQQqdVaV3mIBdkfa6UH78Y5zPz1O7rHx1mTfwG1UPeQEZwtjyvWN0rplEa6VutsikmQdPT6oNdAb1wwX6Yoe3ZPrHzVNnLfY3TRDRva6tJ3ABC6JvIE8flJ3HVXnF3XSea5OHA7fiLppNwIq6lGqzTEpfEoK5zrq/UugDsuOjL+FT3mmIaNrWr5u+oQzB46CXhI7VDESRn8hJstLs=
